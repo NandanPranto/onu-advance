@@ -392,11 +392,11 @@ section #portfolio .portfolio-img{
 
 /*starting Style for portfolio Section*/
 
-#pricing{
+/* #pricing{
 
     padding-top: 80px;
     height: 890px;
-}
+} */
 
 /*Ending Style for portfolio Section*/
 
@@ -462,7 +462,7 @@ section #portfolio .portfolio-img{
 
 #contact-us{
     padding-top: 80px;
-    height: 780px;
+    height: 450px;
 }
 
 
