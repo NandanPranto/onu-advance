@@ -1,0 +1,574 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("../css/all.min.css");
+@import url("../css/fontawesome.min.css");
+body{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, figure, p ,b{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 , b{
+    text-transform: uppercase;
+}
+
+h2  {
+    color: #191919;
+    font-size: 26px;
+    padding-bottom: 0;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+h3
+{
+color: #191919;
+font-size: 16px;
+}
+
+
+p
+{
+color: #191919;
+font-size: 15px;
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1180px;
+    margin: auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.row
+{ 
+    overflow: hidden;
+   margin-top: -15px;
+   margin-bottom: -15px;
+}
+
+.col-3
+{  
+  width: 25%;
+  float: left;
+  padding: 16px;
+}
+
+.col-4{
+    width: 33.33%;
+    float: left;
+    padding: 16px;
+}
+
+.col-6
+{
+    width: 50%;
+    float: left;
+}
+
+i{
+    padding: 20px;
+}
+
+.icon-text{
+    padding-top: 8px;
+    text-align: justify;
+
+}
+
+.intro
+{
+    padding-top: -10px;
+    padding-bottom: 35px;
+    width: 700px;
+    margin: auto;
+}
+
+.flex-container {
+    width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.button {
+    background-color: #010101;
+    color: #fdfefe;
+    border: none;
+    padding: 11px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px 2px 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .text-white
+  {
+    color: #fdfefe;
+  }
+  
+  .button1 {
+    background-color: #010101;
+    color: #fdfefe;
+    border: 2px solid #010101;
+  }
+  
+  .button1:hover {
+    background-color: #87d37c;
+    border: 2px solid #87d37c;
+    color: #fdfefe;
+  }
+
+  .button2
+  {
+    background-color: #87d37c;
+    border: 2px solid #87d37c;
+    color: #fdfefe; 
+    border: none;
+    padding: 11px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 5px 2px 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+    a{
+        
+        text-decoration: none;
+    }
+
+    .row .col-3 > a
+    {
+        color: #010101;
+    }
+
+    .row .col-3 > a:nth-of-type(2):active
+    {
+        color: #87d37c;
+    }
+
+    .row .col-3 > a:hover
+    {
+        color: #87d37c;
+    }
+
+  img:hover{
+      opacity: 0.3;
+      
+  }
+  span{
+    color:#87d37c;  
+  }
+
+  label
+  {
+      text-align: left;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+
+/*Style for Header*/
+header{
+    background-image: url("../img/onu-advance.jpg");
+    background-position: center ;
+    background-size: cover;
+    height: 660px;
+    padding-top: 10px;
+}
+
+header .container{
+    overflow: hidden;
+}
+header .container div{
+    overflow: hidden;
+    margin-bottom: 90px;
+
+}
+header .container #logo{
+    margin: 0;
+    width: 200px;
+    padding-left: 52px;
+    padding-top: 8px;
+    float: left;
+}
+header .container nav{
+    
+    width: 980;
+    margin-right: 15px;
+    float: right;
+}
+
+header .container nav li{
+    display: inline-block;
+    padding-top: 31px;
+    padding-right: 20px;
+    
+    font-family:  'Roboto', sans-serif;
+}
+
+header .container nav li a{
+    color: #fefbfc;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+header .container nav li a:hover{
+    color: #87d37c;
+}
+header .container nav .active a{
+    color: #87d37c;
+    margin-right: 2px;
+}
+
+header .container nav .nav-about{
+    margin-right: 40px;
+}
+
+header .container nav .nav-services{
+    margin-right: 40px;
+}
+
+
+header .container nav .nav-portfolio{
+    margin-right: -15px;
+}
+
+header .container nav .nav-pricing{
+    margin-right: 2px;
+}
+
+
+header .container section{
+    width: 455px;
+    float: right;
+    margin-bottom: 200px;
+}
+
+
+
+header .container h1{
+
+    color: #ffffff;
+    border: 2px solid #f9f3f3;
+    width: 580px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 80px;
+
+}
+header .container h2{
+
+    color: #ffffff;
+    
+}
+
+header .container .onu{
+padding-top: 50px;
+    text-align: center;
+
+}
+
+header .container .onu-border{
+    margin-bottom: 14px;
+    padding-left: 300px;
+}
+
+header .container .onu-icon{
+    
+    padding-left: 500px;
+}
+header .container .onu-icon i:nth-child(2)
+{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
+/*Starting Style for About us Section*/
+
+#about-us
+{
+    height: 476px;
+    padding-top: 80px;
+}
+
+
+
+/*Ending Style for About us Section*/
+
+/*Starting Style for services Section*/
+
+#services {
+    background-color: #E1E1E1;
+    padding-top: 80px;
+    height: 562px;;
+}
+
+
+
+#services .container .row img:hover{
+    content: "";
+    background-color: rgba(3, 3, 3, 0.5);
+}
+
+/*Ending Style for services Section*/
+
+
+/*Starting Style for portfolio Section*/
+
+#portfolio {
+    padding-top: 80px;
+    height: 1080px;
+}
+section #portfolio .active button{
+    color: #87d37c;
+    
+}
+
+section #portfolio .container .portfolio-img .row .col-4 {
+
+    padding: 8px;
+    
+}
+
+
+section #portfolio .portfolio-img{
+
+    padding-bottom: 40px;
+}
+
+
+/*Ending Style for portfolio Section*/
+
+/*starting Style for portfolio Section*/
+
+#pricing{
+
+    padding-top: 80px;
+    height: 890px;
+}
+
+/*Ending Style for portfolio Section*/
+
+
+/*starting Style for parallax Section*/
+
+#parallax{
+    background-image: url("../img/paralax.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;/*for moving the image----main part for parallax*/
+    height: 370px;
+    position: relative;
+}
+
+#parallax::before{
+
+    content: "";
+    background-color: rgba(5, 5, 5, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+#parallax .parallax-content
+{
+    padding-top: 122px;
+}
+
+#parallax .container .row .box
+{
+    color: #ffffff;
+    border: 1px solid #f9f3f3;
+    width: 250px;
+    height: 120px;
+    text-align: center;
+    margin: auto;
+    padding-top: 28px;
+}
+
+#parallax .container{
+    position: relative;
+    z-index: 1;
+    color: #FFFFFF;
+}
+
+#parallax .container .row .col-3 .box p > strong{
+    color: #ffffff;
+    font-size: 36px;
+}
+#parallax .container .row .col-3 .box p:last-child{
+    color: #ffffff;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+
+/*Ending Style for parallax Section*/
+
+/*starting Style for contact Section*/
+
+#contact-us{
+    padding-top: 80px;
+    height: 780px;
+}
+
+
+
+#contact-us .contact-form{
+    width: 1180px;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 200px;
+}
+
+#contact-us .contact-icontext
+{
+    padding-top: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+/*Ending Style for contact Section*/
+
+/*starting Style for goooglemap Section*/
+
+#google-map div{
+    position: relative;
+    height: 700px;
+    padding-bottom: 100px;
+    
+}
+
+#google-map div iframe
+{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+ 
+}
+
+/*Ending Style for goooglemap Section*/
+
+/*starting Style for footer Section*/
+
+footer{
+    padding-top: 20px;
+    height: 65px;
+    color: #fdfefe;
+    background-color: rgb(5, 5, 5);
+}
+
+footer .container .footer-icon ul li a
+{
+    color: #fdfefe;
+}
+
+footer .container .footer-icon ul li a:hover
+{
+    color: #87d37c;
+}
+
+
+
+footer .container .footer-icon
+{ 
+    
+    
+    position: relative;
+
+}
+
+footer .container .footer-icon .icon
+{ 
+    
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: -37px;
+
+}
+
+footer .container .footer-icon ul 
+{
+    position: relative;
+    list-style-type: none;
+   
+    
+
+}
+footer.container .footer-icon ul li
+{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 15px;
+    position: absolute;
+    right: 0;
+    display: inline;
+
+
+
+}
+
+
+
+/*Ending Style for footer Section*/
